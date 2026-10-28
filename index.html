@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#071a35">
+<title>Toán 9A1 · Trắc nghiệm 2.21–2.25</title>
+<style>
+:root{--navy:#071a35;--blue:#174b87;--teal:#087f8c;--cyan:#2bd5d9;--gold:#ffc857;--ink:#142b49;--muted:#63748b;--line:#dce6f2;--green:#12815c;--red:#c43d50}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink)}
+body{background:radial-gradient(ellipse at 12% 0%,#1c4b86 0,transparent 36%),radial-gradient(ellipse at 95% 100%,#086b78 0,transparent 34%),var(--navy);padding:clamp(6px,1.5vw,18px)}
+button{font:inherit;cursor:pointer}.app{width:min(1320px,100%);min-height:calc(100dvh - 12px);margin:auto;display:flex;flex-direction:column;gap:10px}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;color:#fff;padding:4px 4px}.brand{display:flex;align-items:center;gap:10px}.logo{width:40px;height:40px;display:grid;place-items:center;border-radius:13px;background:linear-gradient(135deg,#52e4dd,#b7ffda);color:#09274a;font-weight:1000;font-size:23px;box-shadow:0 6px 20px #2bd5d933}.brand h1{font-size:clamp(15px,2vw,21px);line-height:1.1;margin:0}.brand p{margin:4px 0 0;color:#c3d8f2;font-size:11px}.chapter{font-size:11px;font-weight:850;letter-spacing:.7px;border:1px solid #ffffff3b;background:#ffffff0d;padding:9px 12px;border-radius:99px;white-space:nowrap}
+.panel{background:#fff;border-radius:22px;box-shadow:0 18px 55px #0003;overflow:hidden;display:flex;flex-direction:column;flex:1;min-height:0}
+.intro{padding:clamp(24px,5vw,56px);background:linear-gradient(120deg,#fff 0%,#edf8ff 62%,#e4fbf6 100%);position:relative;overflow:hidden}.intro:after{content:"2.21";position:absolute;right:3%;top:5%;font-size:clamp(70px,15vw,180px);font-weight:1000;letter-spacing:-8px;color:#0b46790b;pointer-events:none}.eyebrow{color:var(--teal);font-size:11px;letter-spacing:2px;font-weight:950;text-transform:uppercase}.intro h2{font-size:clamp(30px,5.2vw,58px);line-height:1.02;letter-spacing:-1.5px;margin:12px 0;color:var(--navy);position:relative}.intro h2 span{color:var(--teal)}.intro p{max-width:700px;line-height:1.65;color:#526780;margin:0;font-size:clamp(14px,1.5vw,17px)}.intro-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+.btn{border:0;border-radius:12px;padding:12px 18px;font-weight:850;transition:transform .15s,filter .15s}.btn:hover{transform:translateY(-1px);filter:brightness(1.04)}.primary{background:linear-gradient(100deg,#16457f,#087f8c);color:#fff;box-shadow:0 7px 18px #16457f25}.secondary{background:#fff;border:1px solid #d4e0ee;color:#254665}
+.quiz{display:none;flex:1;min-height:0;flex-direction:column}.quiztop{padding:14px clamp(16px,3vw,34px);background:#f6f9fd;border-bottom:1px solid #e1eaf4;display:flex;align-items:center;gap:12px}.progress-area{flex:1;min-width:100px}.check-top{padding:10px 14px;font-size:clamp(12px,1.4vw,16px);white-space:nowrap;min-height:42px}.check-top:disabled{opacity:.55;cursor:not-allowed}.exit-top{padding:10px 14px;font-size:clamp(12px,1.4vw,16px);white-space:nowrap;min-height:42px}.progress-meta{display:flex;justify-content:space-between;gap:12px;margin-bottom:8px;font-size:11px;letter-spacing:.5px;font-weight:900;color:#516681}.progress{height:7px;border-radius:99px;background:#dfe8f3;overflow:hidden}.progressbar{height:100%;width:20%;border-radius:99px;background:linear-gradient(90deg,#174b87,#20b9ba);transition:width .25s}.clock{display:flex;align-items:center;gap:8px;border:1px solid #d7e3f1;background:#fff;border-radius:12px;padding:8px 12px;min-width:102px;justify-content:center}.clock-icon{font-size:15px}.clockvalue{font-variant-numeric:tabular-nums;font-weight:950;letter-spacing:1px;font-size:15px;color:#173b67}.clocklabel{display:block;color:#7b8ba0;font-size:9px;font-weight:800;letter-spacing:1px;text-transform:uppercase}
+.questionwrap{flex:1;min-height:0;padding:clamp(18px,3.2vw,40px) clamp(18px,5vw,64px);display:flex;flex-direction:column;max-width:1160px;width:100%;margin:0 auto}.qmeta{display:flex;align-items:center;gap:9px;margin-bottom:12px;flex-wrap:wrap}.qnumber{background:#e6f7f7;color:#087781;font-size:11px;font-weight:950;letter-spacing:.6px;border-radius:8px;padding:7px 10px}.qtopic{font-size:11px;color:#75859a;font-weight:800;letter-spacing:.8px}.question{font-size:clamp(23px,3.2vw,38px);line-height:1.32;letter-spacing:-.65px;font-weight:850;color:#10294b;margin:0 0 clamp(18px,3vh,30px);max-width:1060px;overflow-wrap:anywhere}.math{font-family:Cambria,Georgia,serif;letter-spacing:0}.options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;max-width:1050px}.option{display:flex;align-items:center;gap:14px;text-align:left;background:#fff;border:2px solid #e1e9f3;border-radius:15px;padding:clamp(13px,1.7vw,20px);min-height:72px;color:#183451;font-size:clamp(15px,1.6vw,19px);font-weight:700;line-height:1.4;transition:border .15s,background .15s,transform .15s;overflow-wrap:anywhere}.option:hover:not(:disabled){border-color:#6fbcc9;transform:translateY(-1px);background:#f8fdff}.letter{flex:0 0 34px;width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:#edf4fc;color:#214f80;font-size:14px;font-weight:950}.option.selected{border-color:#16859a;background:#effbfc;box-shadow:0 0 0 3px #16859a12}.option.correct{border-color:#15946a;background:#edfff7}.option.correct .letter{background:#15946a;color:#fff}.option.wrong{border-color:#d84e60;background:#fff1f3}.option.wrong .letter{background:#d84e60;color:#fff}.option:disabled{cursor:default}
+.feedback{display:none;max-width:1050px;margin-top:15px;padding:14px 17px;border-radius:13px;border-left:4px solid #1987a4;background:#f0f8ff;line-height:1.55;font-size:clamp(13px,1.3vw,15px);color:#29435f}.feedback.show{display:block}.feedback.good{background:#effff7;border-color:#15946a}.feedback.bad{background:#fff3f4;border-color:#d84e60}.controls{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:auto;padding-top:clamp(18px,3vh,30px)}.microhint{font-size:12px;color:#71829a}.foot{padding:8px 4px 0;text-align:center;color:#adc4e2;font-size:10px;letter-spacing:.5px}
+.result{display:none;flex:1;text-align:center;align-items:center;justify-content:center;padding:clamp(22px,5vw,56px);background:linear-gradient(135deg,#fff,#effbff)}.result .trophy{font-size:50px}.result h2{font-size:clamp(29px,5vw,48px);margin:8px 0;color:var(--navy)}.score{font-size:clamp(52px,9vw,86px);line-height:1.05;font-weight:1000;letter-spacing:-3px;color:var(--teal)}.result p{max-width:650px;color:#5e7188;line-height:1.6}.actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:10px}.review{display:none;width:min(100%,800px);text-align:left;margin-top:20px}.review.show{display:block}.review-item{padding:13px 15px;border:1px solid #dce7f2;border-radius:12px;margin:8px 0;font-size:13px;line-height:1.55;background:#fff}
+
+.top-actions{display:flex;align-items:center;gap:8px}.present-btn{padding:9px 13px;background:#19c5c4;color:#052b45;border:1px solid #9ef5ed;font-size:13px;white-space:nowrap}.exit-present{display:none;position:fixed;z-index:9999;right:12px;top:10px;border:1px solid #ffffff55;border-radius:10px;padding:7px 11px;background:#071a35dd;color:white;font-size:12px;font-weight:800}
+body.presentation{padding:0;background:#071a35}
+body.presentation .app{width:100%;max-width:none;min-height:100dvh;gap:0}
+body.presentation .topbar,body.presentation .foot{display:none}
+body.presentation .panel{border-radius:0;min-height:100dvh}
+body.presentation .quiztop{padding:clamp(6px,1.2vh,12px) clamp(12px,2vw,28px)}
+body.presentation .questionwrap{max-width:none;width:100%;padding:clamp(12px,2.5vh,28px) clamp(18px,4vw,60px)}
+body.presentation .question{font-size:clamp(24px,3.5vw,48px);line-height:1.22;margin-bottom:clamp(12px,2vh,22px)}
+body.presentation .option{font-size:clamp(17px,1.9vw,25px);min-height:clamp(58px,10vh,100px);padding:clamp(12px,1.8vh,20px)}
+body.presentation .letter{width:clamp(32px,3vw,46px);height:clamp(32px,3vw,46px);flex-basis:clamp(32px,3vw,46px);font-size:clamp(15px,1.3vw,20px)}
+body.presentation .feedback{font-size:clamp(15px,1.5vw,20px)}
+body.presentation .exit-present{display:block}
+body.presentation.quiz-active .exit-present{display:none}
+@media (orientation:landscape) and (min-width:700px){
+ body.presentation .app{aspect-ratio:16/9;min-height:100dvh}
+ body.presentation .panel{min-height:0;flex:1}
+}
+\n@media(max-width:620px){body{padding:5px}.app{min-height:calc(100dvh - 10px);gap:7px}.topbar{padding:1px 2px}.logo{width:34px;height:34px;border-radius:10px}.brand p{display:none}.chapter{font-size:9px;padding:7px 9px}.panel{border-radius:17px}.intro{padding:24px 19px}.intro h2{letter-spacing:-.7px}.quiztop{padding:10px 12px;gap:8px}.check-top,.exit-top{padding:8px 9px;font-size:10px;min-height:36px}.clock{min-width:88px;padding:7px 9px;gap:5px}.clockvalue{font-size:13px}.clocklabel{font-size:8px}.questionwrap{padding:18px 14px}.question{font-size:clamp(21px,5.4vw,29px);margin-bottom:17px}.options{gap:9px}.option{padding:11px 10px;min-height:64px;border-radius:12px;gap:9px;font-size:clamp(13px,3.6vw,16px)}.letter{width:28px;height:28px;flex-basis:28px;border-radius:8px}.microhint{display:none}.btn{padding:11px 13px;font-size:13px}.feedback{font-size:13px;padding:11px 12px}.foot{font-size:9px}}
+@media(max-width:390px){.options{grid-template-columns:1fr}.option{min-height:52px}.question{font-size:21px}.intro h2{font-size:29px}}
+@media(orientation:landscape) and (max-height:520px){body{padding:4px}.app{min-height:calc(100dvh - 8px);gap:4px}.topbar{padding:0 3px}.logo{width:29px;height:29px}.brand p{display:none}.panel{border-radius:13px}.quiztop{padding:6px 10px;gap:8px}.check-top,.exit-top{padding:7px 9px;font-size:11px;min-height:34px}.questionwrap{padding:9px 24px}.qmeta{margin-bottom:5px}.question{font-size:clamp(19px,3.4vh,27px);margin-bottom:9px;line-height:1.2}.options{gap:7px}.option{min-height:44px;padding:7px 10px;font-size:clamp(12px,2.5vh,15px);border-radius:10px}.letter{width:25px;height:25px;flex-basis:25px}.controls{padding-top:8px}.feedback{margin-top:7px;padding:7px 10px;font-size:11px}.intro{padding:14px 25px}.intro h2{font-size:clamp(25px,6vh,37px);margin:5px 0}.intro p{font-size:12px}.intro-actions{margin-top:10px}.foot{padding-top:3px}}
+</style>
+<script>
+window.MathJax = {
+  tex: { inlineMath: [['\\(','\\)'], ['$', '$']], processEscapes: true },
+  options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] },
+  chtml: { scale: 1.08 }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body>
+<div class="app">
+<header class="topbar"><div class="brand"><div class="logo">π</div><div><h1>TOÁN 9A1</h1><p>Ôn tập nhanh · Chọn đáp án · Xem lời giải</p></div></div><div class="top-actions"><div class="chapter">BÀI 2.21 – 2.25</div><button class="btn present-btn" id="presentBtn" type="button">⛶ Chiếu TV</button></div></header>
+<button class="exit-present" id="exitPresentBtn" type="button" aria-label="Thoát chế độ trình chiếu">✕ Thoát chiếu</button>
+<main class="panel">
+<section class="intro" id="intro"><div class="eyebrow">Trắc nghiệm cuối Chương II</div><h2>5 CÂU HỎI<br><span>THỬ SỨC TOÁN 9</span></h2><p>Ôn đúng 5 câu trắc nghiệm 2.21–2.25 trong tài liệu. Giao diện tập trung vào đề bài và các lựa chọn; thanh tiến độ và đồng hồ được đặt gọn phía trên. Xoay ngang điện thoại để có vùng hiển thị rộng hơn.</p><div class="intro-actions"><button class="btn primary" id="startBtn">Bắt đầu làm bài&nbsp; →</button><button class="btn secondary" id="howBtn">Hướng dẫn</button></div></section>
+<section class="quiz" id="quiz"><div class="quiztop"><button class="btn primary check-top" id="actionBtn" disabled>Kiểm tra đáp án</button><div class="progress-area"><div class="progress-meta"><span id="progressText">CÂU 1 / 5</span><span id="percent">20%</span></div><div class="progress"><div class="progressbar" id="progressbar"></div></div></div><div class="clock"><span class="clock-icon">◷</span><div><span class="clocklabel">Thời gian</span><span class="clockvalue" id="clock">00:00</span></div></div><button class="btn secondary exit-top" id="exitBtn">Thoát</button></div>
+<div class="questionwrap"><div class="qmeta"><span class="qnumber" id="qnumber">CÂU 2.21</span><span class="qtopic" id="qtopic">BẤT PHƯƠNG TRÌNH</span></div><h2 class="question" id="question"></h2><div class="options" id="options"></div><div class="feedback" id="feedback"></div><div class="controls"><span class="microhint">Chọn một đáp án phù hợp nhất</span></div></div></section>
+<section class="result" id="result"><div class="trophy" id="trophy">🏆</div><div class="eyebrow">Hoàn thành bài ôn tập</div><h2 id="resultTitle">Kết quả của bạn</h2><div class="score"><span id="score">0</span><span style="font-size:.4em;color:#74859a">/5</span></div><p id="resultText"></p><div class="actions"><button class="btn primary" id="retryBtn">↻ Làm lại</button><button class="btn secondary" id="reviewBtn">Xem lời giải</button></div><div class="review" id="review"></div></section>
+</main><div class="foot">LỚP 9A1 · 5 CÂU TRẮC NGHIỆM GỐC · BÀI TẬP CUỐI CHƯƠNG II</div>
+</div>
+<script>
+"use strict";
+const questions=[
+{id:"2.21",topic:"BẤT PHƯƠNG TRÌNH",q:"Nghiệm của bất phương trình \\( -2x+1<0 \\) là",opts:["\\(x<\\frac{1}{2}\\)","\\(x>\\frac{1}{2}\\)","\\(x\\leq\\frac{1}{2}\\)","\\(x\\geq\\frac{1}{2}\\)"],a:1,why:"Ta có \\( -2x+1<0 \\Leftrightarrow -2x<-1 \\). Chia hai vế cho \\(-2\\) phải đổi chiều bất phương trình, suy ra \\(x>\\frac{1}{2}\\)."},
+{id:"2.22",topic:"ĐIỀU KIỆN XÁC ĐỊNH",q:"Điều kiện xác định của phương trình \\(\\frac{x}{2x+1}+\\frac{3}{x-5}=\\frac{x}{(2x+1)(x-5)}\\) là",opts:["\\(x\\ne-\\frac{1}{2}\\)","\\(x\\ne-\\frac{1}{2}\\) và \\(x\\ne-5\\)","\\(x\\ne5\\)","\\(x\\ne-\\frac{1}{2}\\) và \\(x\\ne5\\)"],a:3,why:"Mọi mẫu số phải khác \\(0\\): \\(2x+1\\ne0\\) và \\(x-5\\ne0\\). Do đó \\(x\\ne-\\frac{1}{2}\\) và \\(x\\ne5\\)."},
+{id:"2.23",topic:"PHƯƠNG TRÌNH CHỨA THAM SỐ",q:"Phương trình \\(x-1=m+4\\) có nghiệm lớn hơn \\(1\\) với",opts:["\\(m\\geq-4\\)","\\(m\\leq4\\)","\\(m>-4\\)","\\(m<-4\\)"],a:2,why:"Từ \\(x-1=m+4\\) suy ra \\(x=m+5\\). Điều kiện \\(x>1\\) tương đương \\(m+5>1\\), tức \\(m>-4\\)."},
+{id:"2.24",topic:"BẤT PHƯƠNG TRÌNH",q:"Nghiệm của bất phương trình \\(1-2x\\geq2-x\\) là",opts:["\\(x>\\frac{1}{2}\\)","\\(x<\\frac{1}{2}\\)","\\(x\\leq-1\\)","\\(x\\geq-1\\)"],a:2,why:"\\(1-2x\\geq2-x \\Leftrightarrow -x\\geq1\\). Nhân hai vế với \\(-1\\) và đổi chiều dấu, được \\(x\\leq-1\\)."},
+{id:"2.25",topic:"SO SÁNH BẤT ĐẲNG THỨC",q:"Cho \\(a>b\\). Khi đó ta có:",opts:["\\(2a>3b\\)","\\(2a>2b+1\\)","\\(5a+1>5b+1\\)","\\(-3a<-3b-3\\)"],a:2,why:"Vì \\(a>b\\) và \\(5>0\\) nên \\(5a>5b\\). Cộng \\(1\\) vào hai vế được \\(5a+1>5b+1\\)."}
+];
+let index=0,chosen=null,answers={},startedAt=0,clockTimer=null,seconds=0;
+const el=id=>document.getElementById(id);
+let mathRetryCount=0;
+function typesetMath(){
+  if(window.MathJax && MathJax.typesetPromise){
+    mathRetryCount=0;
+    MathJax.typesetPromise().catch(err=>console.warn("MathJax typeset:",err));
+    return;
+  }
+  // MathJax có thể tải chậm trên mạng di động/Netlify; thử lại thay vì để lộ mã LaTeX.
+  if(mathRetryCount<40){
+    mathRetryCount++;
+    setTimeout(typesetMath,250);
+  }
+}
+function fmtTime(n){return String(Math.floor(n/60)).padStart(2,"0")+":"+String(n%60).padStart(2,"0")}
+function startQuiz(){document.body.classList.add("quiz-active");index=0;chosen=null;answers={};seconds=0;startedAt=Date.now();el("intro").style.display="none";el("result").style.display="none";el("quiz").style.display="flex";el("review").classList.remove("show");el("reviewBtn").textContent="Xem lời giải";if(clockTimer)clearInterval(clockTimer);clockTimer=setInterval(()=>{seconds=Math.floor((Date.now()-startedAt)/1000);el("clock").textContent=fmtTime(seconds)},500);renderQuestion()}
+function renderQuestion(){const q=questions[index];chosen=answers[index]?.choice??null;el("qnumber").textContent="CÂU "+q.id;el("qtopic").textContent=q.topic;el("question").innerHTML=q.q;el("progressText").textContent=`CÂU ${index+1} / ${questions.length}`;el("percent").textContent=Math.round((index+1)/questions.length*100)+"%";el("progressbar").style.width=((index+1)/questions.length*100)+"%";el("options").innerHTML="";q.opts.forEach((label,i)=>{const b=document.createElement("button");b.type="button";b.className="option";b.innerHTML=`<span class="letter">${String.fromCharCode(65+i)}</span><span>${label}</span>`;if(chosen===i)b.classList.add("selected");if(answers[index]){b.disabled=true;if(i===q.a)b.classList.add("correct");else if(chosen===i)b.classList.add("wrong")}b.addEventListener("click",()=>selectOption(i));el("options").appendChild(b)});el("feedback").className="feedback";el("feedback").textContent="";if(answers[index])showFeedback();el("actionBtn").disabled=chosen===null&&!answers[index];el("actionBtn").textContent=answers[index]?(index===questions.length-1?"Xem kết quả":"Câu tiếp theo →"):"Kiểm tra đáp án";typesetMath()}
+function selectOption(i){if(answers[index])return;chosen=i;[...el("options").children].forEach((b,j)=>b.classList.toggle("selected",i===j));el("actionBtn").disabled=false}
+function showFeedback(){const q=questions[index],a=answers[index];el("feedback").className="feedback show "+(a.correct?"good":"bad");el("feedback").innerHTML=`<strong>${a.correct?"✓ Chính xác!":"↻ Hãy ghi nhớ quy tắc"}</strong><br>${q.why}<br><b>Đáp án đúng: ${String.fromCharCode(65+q.a)}. ${q.opts[q.a]}</b>`;typesetMath()}
+function nextAction(){if(!answers[index]){if(chosen===null)return;const q=questions[index];answers[index]={choice:chosen,correct:chosen===q.a};renderQuestion();return}if(index<questions.length-1){index++;renderQuestion()}else finishQuiz()}
+function finishQuiz(){document.body.classList.remove("quiz-active");if(clockTimer)clearInterval(clockTimer);const score=Object.values(answers).filter(a=>a.correct).length;el("quiz").style.display="none";el("result").style.display="flex";el("score").textContent=score;el("trophy").textContent=score===5?"🏆":score>=3?"🌟":"💪";el("resultTitle").textContent=score===5?"Xuất sắc!":score>=3?"Làm tốt lắm!":"Cùng ôn lại nhé!";el("resultText").textContent=`Bạn trả lời đúng ${score}/5 câu trong ${fmtTime(seconds)}. Xem lại lời giải để củng cố những phần còn nhầm lẫn.`;makeReview()}
+function makeReview(){el("review").innerHTML="<h3>ĐÁP ÁN VÀ LỜI GIẢI</h3>"+questions.map((q,i)=>{const a=answers[i];return `<div class="review-item"><b>Câu ${q.id} · ${a.correct?"✓ Đúng":"✗ Chưa đúng"}</b><br>${q.q}<br><b>Đáp án đúng:</b> ${String.fromCharCode(65+q.a)}. ${q.opts[q.a]}<br>${q.why}</div>`}).join("");typesetMath()}
+function setPresentation(on){
+ document.body.classList.toggle("presentation",on);
+ el("presentBtn").textContent=on?"⛶ Đang chiếu":"⛶ Chiếu TV";
+ if(on && document.documentElement.requestFullscreen && !document.fullscreenElement){
+   document.documentElement.requestFullscreen().catch(()=>{});
+ } else if(!on && document.fullscreenElement && document.exitFullscreen){
+   document.exitFullscreen().catch(()=>{});
+ }
+}
+el("presentBtn").addEventListener("click",()=>setPresentation(!document.body.classList.contains("presentation")));
+el("exitPresentBtn").addEventListener("click",()=>setPresentation(false));
+document.addEventListener("fullscreenchange",()=>{if(!document.fullscreenElement)document.body.classList.remove("presentation")});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")document.body.classList.remove("presentation")});
+el("startBtn").addEventListener("click",startQuiz);
+el("howBtn").addEventListener("click",()=>alert("Cách làm bài:\n1. Đọc câu hỏi và chọn A, B, C hoặc D.\n2. Nhấn “Kiểm tra đáp án” để xem lời giải.\n3. Nhấn “Câu tiếp theo” để tiếp tục.\n4. Hoàn thành 5 câu để xem điểm và lời giải tổng hợp.\n\nXoay ngang điện thoại để phần câu hỏi và lựa chọn hiển thị rộng hơn."));
+el("actionBtn").addEventListener("click",nextAction);
+el("exitBtn").addEventListener("click",()=>{if(confirm("Thoát lượt làm bài này? Tiến độ sẽ bị xóa.")){if(clockTimer)clearInterval(clockTimer);setPresentation(false);document.body.classList.remove("quiz-active");el("quiz").style.display="none";el("intro").style.display="block"}});
+el("retryBtn").addEventListener("click",startQuiz);
+el("reviewBtn").addEventListener("click",()=>{el("review").classList.toggle("show");el("reviewBtn").textContent=el("review").classList.contains("show")?"Ẩn lời giải":"Xem lời giải"});
+window.addEventListener("load",()=>{ if(el("question").textContent) typesetMath(); });
+</script>
+</body></html>
